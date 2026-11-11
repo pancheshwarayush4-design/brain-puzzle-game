@@ -1,10 +1,12 @@
 
-name: Android Build
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          accept-android-sdk-licenses: false
 
-on:
-  workflow_dispatch:
-  push:
-    branches:
+      - name: Accept Android SDK Licenses
+        run: yes | sdkmanager --licenses
+
       - main
 
 permissions:
