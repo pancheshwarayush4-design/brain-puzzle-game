@@ -1,0 +1,6 @@
+{
+  "name": "Playfinity Brain Puzzles",
+  "description": "Premium 2D cartoon brain puzzle game featuring notebook doodle visuals, tricky physics teasers, unexpected logic, and sound effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
